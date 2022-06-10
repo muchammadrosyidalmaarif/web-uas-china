@@ -1,0 +1,985 @@
+* {
+  margin: 0;
+  top: 0;
+  text-decoration: none;
+}
+
+/*header*/
+.header {
+  width: 95vw;
+  height: 582px;
+}
+.header .top {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+}
+
+.header .top .top-content {
+  width: 100%;
+  height: 60px;
+  margin-left: 9px;
+  display: flex;
+  align-items: center;
+}
+
+.header .top .top-content :nth-child(1) {
+  flex: 2;
+}
+
+.header .top .top-content :nth-child(2) {
+  flex: 2;
+  height: 46px;
+  padding-left: 10px;
+}
+
+.header .top .top-content :nth-child(2) select {
+  height: 48px;
+  font-size: 20px;
+}
+
+.header .top .top-content :nth-child(2) input {
+  height: 46px;
+  font-size: 18px;
+  width: 140px;
+  border: 0;
+}
+
+.header .top .top-content > :nth-child(2) img {
+  vertical-align: middle;
+  margin-left: -6px;
+  border: #ccc solid;
+}
+
+.header .top .top-content :nth-child(3) {
+  flex: 2;
+}
+
+.header .top .top-content > :nth-child(3) img {
+  vertical-align: middle;
+}
+
+.header .top .top-content :nth-child(3) span:first-child a {
+  color: chocolate;
+}
+
+.header .top .top-content :nth-child(3) span:last-child a {
+  color: cornflowerblue;
+}
+
+.header .top .top-content > :nth-child(3) .App_code img {
+  width: 100px;
+  top: 50px;
+  margin-left: 120px;
+  position: absolute;
+  display: none;
+  z-index: 10;
+}
+
+.header .top .top-content :nth-child(4) {
+  flex: 1;
+}
+
+.header .top .top-content :nth-child(4) a {
+  color: lightslategray;
+  margin: 0 6px;
+
+  font-weight: 800;
+}
+.header .menu {
+  width: 100%;
+  height: 90px;
+}
+
+.menu-content {
+  float: left;
+  margin: auto;
+  text-align: center;
+  width: 1326px;
+  font-family: arial;
+}
+
+.menu-content ul {
+  background: #393f52;
+  padding: 0 13px;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  width: 96.8vw;
+}
+
+.menu-content ul li {
+  float: left;
+}
+
+.menu-content ul li:hover {
+  background: cornflowerblue;
+  color: azure;
+}
+
+.menu-content ul li:hover a {
+  color: white;
+}
+
+.menu-content ul li a {
+  display: block;
+  padding: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+/*header*/
+
+/*jumbotron*/
+.jumbotron {
+  margin-top: -400px;
+  display: flex;
+  padding-left: 50px;
+  display: flex;
+  color: #fff;
+  text-align: center;
+}
+.gambar {
+  color: white;
+  text-align: left;
+  background-image: url(../images/course-list-background.png);
+  width: 35%;
+  height: 150px;
+}
+.gambar p {
+  padding-left: 40px;
+  padding-top: 60px;
+  font-size: 25px;
+}
+
+.tulisan {
+  width: 45%;
+  background-color: #393f52;
+  display: flex;
+  padding-left: 50px;
+  padding-top: 40px;
+}
+
+.tulisan .kesatu {
+  margin-right: 70px;
+}
+
+.tulisan .kesatu p {
+  padding-top: 20px;
+  color: #7a7a7a;
+  font-size: 13px;
+}
+
+.tulisan .kedua {
+  margin-left: 20px;
+}
+.tulisan .kedua p {
+  padding-top: 20px;
+  color: #7a7a7a;
+  font-size: 13px;
+}
+
+.tulisan .ketiga {
+  margin-left: 80px;
+}
+
+.tulisan .ketiga p {
+  padding-top: 20px;
+  color: #7a7a7a;
+  font-size: 13px;
+}
+
+.tulisan .keempat {
+  margin-left: 80px;
+}
+
+.tulisan .keempat p {
+  padding-top: 40px;
+  color: #7a7a7a;
+  font-size: 13px;
+}
+.tulisan2 {
+  width: 13%;
+  background-color: rgb(16, 99, 255);
+}
+.tulisan2 p {
+  text-align: center;
+  padding-top: 60px;
+}
+/*jumbotron*/
+
+/*list*/
+.list {
+  width: 1200px;
+  margin-top: 40px;
+  margin-left: 90px;
+  display: flex;
+  text-align: center;
+  color: #7a7a7a;
+}
+
+/*list left*/
+.list .list-left {
+  width: 200px;
+  margin-left: -70px;
+  margin-right: 210px;
+}
+
+.list .list-left .list-left1 .gambar-left1 {
+  padding-left: 45px;
+}
+
+.list .list-left .list-left1 .gambar-left1 span {
+  padding-left: 15px;
+  margin-top: -100px;
+}
+
+.list-left .pisah1 {
+  width: 38%;
+  height: 50px;
+  margin: 8px auto;
+  text-align: center;
+  display: flex;
+}
+.list-left .pisah1 i {
+  border-bottom: 1px solid cornflowerblue;
+  width: 325px;
+  height: 3px;
+  flex: 0 0 auto;
+}
+
+.list-left1 {
+  margin-left: 60px;
+  display: flex;
+}
+
+.list-left1 p {
+  margin-left: 10px;
+}
+.listleft1-1 {
+  margin-left: 40px;
+  width: 100%;
+  display: flex;
+}
+
+.listleft1-1 .gambar-left1-1 img {
+  margin-left: 25px;
+  border-radius: 100px;
+  width: 100px;
+  margin-top: -20px;
+}
+
+.tulisannama {
+  margin-top: -10px;
+  margin-left: 30px;
+  color: #7a7a7a;
+}
+
+.tulisannama .waktukiri {
+  width: 100px;
+  margin-top: 10px;
+  margin-left: -10px;
+  font-size: 12px;
+}
+
+/*list left1*/
+
+/*listleft2*/
+.list .list-left .list-left2 .gambar-left2 {
+  padding-top: 20px;
+  padding-left: 25px;
+}
+
+.list .list-left .list-left2 .deskripsi {
+  width: 320px;
+  padding-left: 65px;
+  margin-top: -30px;
+  text-align: left;
+  font-size: 16px;
+  color: #7a7a7a;
+}
+.list-left2 {
+  margin-top: 48px;
+}
+.gambarlistleft2 {
+  display: flex;
+  margin: 0px 0px 0px 60px;
+}
+.gambarlistleft2 p {
+  display: flex;
+  margin: 0px 0px 0px 10px;
+}
+/*listleft2*/
+
+/*listright*
+/*listright1*/
+.list-right1 {
+  margin-top: 8px;
+  color: #000;
+  display: flex;
+}
+
+.right-kiri {
+  width: 70px;
+  text-align: left;
+}
+.right-kanan {
+  width: 300px;
+  display: flex;
+  padding-top: 8px;
+  margin-left: 588px;
+}
+
+.right-kanan1 {
+  border: 1px solid rgb(16, 99, 255);
+  font-size: 15px;
+  padding: 2px 19px 2px 19px;
+  background-color: rgb(16, 99, 255);
+  color: white;
+}
+.right-kanan2 {
+  border: 1px solid #7a7a7a;
+  font-size: 15px;
+  padding: 2px 19px 2px 19px;
+  margin-left: 5px;
+  color: #7a7a7a;
+}
+.right-kanan3 {
+  border: 1px solid #7a7a7a;
+  margin-left: 5px;
+  font-size: 15px;
+  padding: 2px 19px 2px 19px;
+
+  color: #7a7a7a;
+}
+/*listright1*/
+
+/*listright2*/
+.list-right2 {
+  margin-top: 28px;
+}
+
+.judul1 {
+  width: 880px;
+  background-color: #e2e2e2;
+  display: flex;
+}
+
+.gambarjudul1-kiri {
+  display: flex;
+}
+.gambarjudul1-kiri img {
+  padding-top: 3px;
+  width: 35px;
+}
+
+.gambarjudul1-kiri div {
+  padding-left: 5px;
+}
+.gambarjudul1-kiri div p {
+  padding-left: 9px;
+  padding-top: 9px;
+}
+
+.gambarjudul1-kiri .tulisanjudul1-kiri {
+  margin-bottom: 9px;
+}
+
+.gambarjudul1-kanan img {
+  padding-top: 19px;
+  margin-left: 678px;
+}
+/*contentlist1*/
+.contentlist1 {
+  width: 880px;
+  display: flex;
+}
+.gambarcontentlist1-kiri {
+  display: flex;
+}
+.gambarcontentlist1-kiri div img {
+  width: 23px;
+  padding: 30px 0px 0px 15px;
+}
+.gambarcontentlist1-kiri div p {
+  padding: 28px 0px 0px 25px;
+  font-size: 15px;
+}
+.gambarcontentlist1-kiri i {
+  margin: 15px 0px 0px -13px;
+  height: 13px;
+  border: 1px solid #e0e0e0;
+}
+.gambarcontentlist1-kanan1 {
+  display: flex;
+  margin: 28px 0px 0px 630px;
+}
+.gambarcontentlist1-kanan1 div p {
+  border: lightgreen 1px solid;
+  color: lightgreen;
+  padding: 2px 6px 2px 6px;
+}
+
+.gambarcontentlist1-kanan1 div img {
+  padding: 5px 0px 0px 7px;
+}
+/*contentlist1*/
+
+/*contentlist1-1*/
+.contentlist1-1 {
+  width: 880px;
+  display: flex;
+}
+.gambarcontentlist1-1-kiri {
+  display: flex;
+}
+.gambarcontentlist1-1-kiri div img {
+  width: 23px;
+  padding: 18px 0px 0px 15px;
+}
+.gambarcontentlist1-1-kiri div p {
+  padding: 15px 0px 0px 25px;
+  font-size: 15px;
+}
+.gambarcontentlist1-1-kiri i {
+  margin: -3px 0px 0px -13px;
+  height: 18px;
+  border: 1px solid #e0e0e0;
+}
+.gambarcontentlist1-1-kanan1 {
+  display: flex;
+  margin: 15px 0px 0px 650px;
+}
+
+/*kanan1*/
+.gambarcontentlist1-1-kanan1java {
+  display: flex;
+  margin: 15px 0px 0px 580px;
+}
+.gambarcontentlist1-1-kanan1java div p {
+  border: lightgreen 1px solid;
+  color: lightgreen;
+  padding: 1px 6px 1px 6px;
+}
+.gambarcontentlist1-1-kanan1java div img {
+  padding: 5px 0px 0px 5px;
+}
+/*kanan1*/
+
+/*kanan2*/
+.gambarcontentlist1-1-kanan2java {
+  display: flex;
+  margin: 15px 0px 0px 630px;
+}
+.gambarcontentlist1-1-kanan2java div p {
+  border: lightgreen 1px solid;
+  color: lightgreen;
+  padding: 1px 6px 1px 6px;
+}
+.gambarcontentlist1-1-kanan2java div img {
+  padding: 5px 0px 0px 5px;
+}
+/*kanan2*/
+
+/*kanan3*/
+.gambarcontentlist1-1-kanan3java {
+  display: flex;
+  margin: 15px 0px 0px 620px;
+}
+.gambarcontentlist1-1-kanan3java div p {
+  border: lightgreen 1px solid;
+  color: lightgreen;
+  padding: 1px 6px 1px 6px;
+}
+.gambarcontentlist1-1-kanan3java div img {
+  padding: 5px 0px 0px 5px;
+}
+/*kanan3*/
+
+/*kanan4*/
+.gambarcontentlist1-1-kanan4java {
+  display: flex;
+  margin: 15px 0px 0px 585px;
+}
+.gambarcontentlist1-1-kanan4java div p {
+  border: lightgreen 1px solid;
+  color: lightgreen;
+  padding: 1px 6px 1px 6px;
+}
+.gambarcontentlist1-1-kanan4java div img {
+  padding: 5px 0px 0px 5px;
+}
+/*kanan4*/
+
+/*kanan5*/
+.gambarcontentlist1-1-kanan5java {
+  display: flex;
+  margin: 15px 0px 0px 660px;
+}
+.gambarcontentlist1-1-kanan5java div p {
+  border: lightgreen 1px solid;
+  color: lightgreen;
+  padding: 1px 6px 1px 6px;
+}
+.gambarcontentlist1-1-kanan5java div img {
+  padding: 5px 0px 0px 5px;
+}
+/*kanan5*/
+
+/*kanan6*/
+.gambarcontentlist1-1-kanan6java {
+  display: flex;
+  margin: 15px 0px 0px 600px;
+}
+.gambarcontentlist1-1-kanan6java div p {
+  border: lightgreen 1px solid;
+  color: lightgreen;
+  padding: 1px 6px 1px 6px;
+}
+.gambarcontentlist1-1-kanan6java div img {
+  padding: 5px 0px 0px 5px;
+}
+/*kanan6*/
+
+/*kanan7*/
+.gambarcontentlist1-1-kanan7java {
+  display: flex;
+  margin: 15px 0px 0px 568px;
+}
+.gambarcontentlist1-1-kanan7java div p {
+  border: lightgreen 1px solid;
+  color: lightgreen;
+  padding: 1px 6px 1px 6px;
+}
+.gambarcontentlist1-1-kanan7java div img {
+  padding: 5px 0px 0px 5px;
+}
+/*kanan7*/
+
+/*kanan8*/
+.gambarcontentlist1-1-kanan8java {
+  display: flex;
+  margin: 15px 0px 0px 575px;
+}
+.gambarcontentlist1-1-kanan8java div p {
+  border: lightgreen 1px solid;
+  color: lightgreen;
+  padding: 1px 6px 1px 6px;
+}
+.gambarcontentlist1-1-kanan8java div img {
+  padding: 5px 0px 0px 5px;
+}
+/*kanan8*/
+
+.gambarcontentlist1-1-kanan1 div p {
+  border: lightgreen 1px solid;
+  color: lightgreen;
+  padding: 1px 6px 1px 6px;
+}
+.gambarcontentlist1-1-kanan1 div img {
+  padding: 5px 0px 0px 5px;
+}
+.mianfeikanan {
+  padding-left: -900px;
+}
+
+/*contentlist1-1*/
+
+/*judul2*/
+.judul2 {
+  margin-top: 20px;
+  width: 880px;
+  background-color: #e2e2e2;
+  display: flex;
+}
+
+.gambarjudul1-kiri2 {
+  display: flex;
+}
+.gambarjudul1-kiri2 img {
+  padding-top: 5px;
+  width: 35px;
+}
+
+.gambarjudul1-kiri2 div {
+  padding-left: 5px;
+}
+.gambarjudul1-kiri2 div p {
+  padding-left: 9px;
+  padding-top: 9px;
+}
+
+.gambarjudul1-kiri2 .tulisanjudul1-kiri {
+  margin-bottom: 9px;
+}
+
+.gambarjudul1-kanan2 {
+  padding-top: 10px;
+  margin-left: 648px;
+}
+
+/*judul2*/
+
+/*contentlist2*/
+.contentlist2 {
+  width: 880px;
+  display: flex;
+}
+.gambarcontentlist2-kiri {
+  display: flex;
+}
+.gambarcontentlist2-kiri div img {
+  width: 23px;
+  padding: 30px 0px 0px 15px;
+}
+.gambarcontentlist2-kiri div p {
+  padding: 28px 0px 0px 25px;
+  font-size: 15px;
+}
+.gambarcontentlist2-kiri i {
+  margin: 15px 0px 0px -13px;
+  height: 13px;
+  border: 1px solid #e0e0e0;
+}
+.gambarcontentlist2-kanan1 {
+  display: flex;
+  margin: 28px 0px 0px 658px;
+}
+.gambarcontentlist2-kanan1 div p {
+  border: lightgreen 1px solid;
+  color: lightgreen;
+  padding: 1px 6px 1px 6px;
+}
+
+.gambarcontentlist2-kanan1 div img {
+  padding: 5px 0px 0px 7px;
+}
+
+/*kanan2.2*/
+.gambarcontentlist1-1-kanan2 {
+  display: flex;
+  margin: 15px 0px 0px 660px;
+}
+.gambarcontentlist1-1-kanan2 div p {
+  border: lightgreen 1px solid;
+  color: lightgreen;
+  padding: 1px 6px 1px 6px;
+}
+.gambarcontentlist1-1-kanan2 div img {
+  padding: 5px 0px 0px 5px;
+}
+/*kanan2.2*/
+/*contentlist2*/
+
+/*judul3*/
+.judul3 {
+  margin-top: 20px;
+  width: 880px;
+  background-color: #e2e2e2;
+  display: flex;
+}
+
+.gambarjudul1-kiri3 {
+  display: flex;
+}
+.gambarjudul1-kiri3 img {
+  padding-top: 5px;
+  width: 35px;
+}
+
+.gambarjudul1-kiri3 div {
+  padding-left: 5px;
+}
+.gambarjudul1-kiri3 div p {
+  padding-left: 9px;
+  padding-top: 9px;
+}
+
+.gambarjudul1-kiri3 .tulisanjudul1-kiri {
+  margin-bottom: 9px;
+}
+
+.gambarjudul1-kanan3 {
+  padding-top: 10px;
+  margin-left: 658px;
+}
+/*judul3*/
+
+/*contentlist3*/
+.contentlist3 {
+  width: 880px;
+  display: flex;
+}
+.gambarcontentlist3-kiri {
+  display: flex;
+}
+.gambarcontentlist3-kiri div img {
+  width: 23px;
+  padding: 30px 0px 0px 15px;
+}
+.gambarcontentlist3-kiri div p {
+  padding: 28px 0px 0px 25px;
+  font-size: 15px;
+}
+.gambarcontentlist3-kiri i {
+  margin: 15px 0px 0px -13px;
+  height: 13px;
+  border: 1px solid #e0e0e0;
+}
+
+/*kanan 3.1*/
+.gambarcontentlist1-1-kanan3-1 {
+  display: flex;
+  margin: 15px 0px 0px 615px;
+}
+.gambarcontentlist1-1-kanan3-1 div p {
+  border: lightgreen 1px solid;
+  color: lightgreen;
+  padding: 1px 6px 1px 6px;
+}
+.gambarcontentlist1-1-kanan3-1 div img {
+  padding: 5px 0px 0px 5px;
+}
+/*kanan 3.1*/
+/*contentlist3-1*/
+
+/*contentlist3-2*/
+/*kanan 3.2*/
+.gambarcontentlist1-1-kanan3-2 {
+  display: flex;
+  margin: 3px 0px 0px 690px;
+}
+.gambarcontentlist1-1-kanan3-2 div p {
+  border: lightgreen 1px solid;
+  color: lightgreen;
+  padding: 1px 6px 1px 6px;
+}
+.gambarcontentlist1-1-kanan3-2 div img {
+  padding: 5px 0px 0px 5px;
+}
+/*kanan 3.2*/
+
+/*kanan 3.4*/
+.gambarcontentlist1-1-kanan3-4 {
+  display: flex;
+  margin: 5px 0px 0px 660px;
+}
+.gambarcontentlist1-1-kanan3-4 div p {
+  border: lightgreen 1px solid;
+  color: lightgreen;
+  padding: 1px 6px 1px 6px;
+}
+.gambarcontentlist1-1-kanan3-4 div img {
+  padding: 5px 0px 0px 5px;
+}
+/*kanan 3.4*/
+
+/*kanan 3.8*/
+.gambarcontentlist1-1-kanan3-8 {
+  display: flex;
+  margin: 5px 0px 0px 630px;
+}
+.gambarcontentlist1-1-kanan3-8 div p {
+  border: lightgreen 1px solid;
+  color: lightgreen;
+  padding: 1px 6px 1px 6px;
+}
+.gambarcontentlist1-1-kanan3-8 div img {
+  padding: 5px 0px 0px 5px;
+}
+/*kanan 3.8*/
+
+/*kanan 3.9*/
+.gambarcontentlist1-1-kanan3-9 {
+  display: flex;
+  margin: 5px 0px 0px 586px;
+}
+.gambarcontentlist1-1-kanan3-9 div p {
+  border: lightgreen 1px solid;
+  color: lightgreen;
+  padding: 1px 6px 1px 6px;
+}
+.gambarcontentlist1-1-kanan3-9 div img {
+  padding: 5px 0px 0px 5px;
+}
+/*kanan 3.9*/
+
+/*kanan 3.10*/
+.gambarcontentlist1-1-kanan3-10 {
+  display: flex;
+  margin: 5px 0px 0px 580px;
+}
+.gambarcontentlist1-1-kanan3-10 div p {
+  border: lightgreen 1px solid;
+  color: lightgreen;
+  padding: 1px 6px 1px 6px;
+}
+.gambarcontentlist1-1-kanan3-10 div img {
+  padding: 5px 0px 0px 5px;
+}
+/*kanan 3.10*/
+
+/*kanan 3.11*/
+.gambarcontentlist1-1-kanan3-11 {
+  display: flex;
+  margin: 5px 0px 0px 565px;
+}
+.gambarcontentlist1-1-kanan3-11 div p {
+  border: lightgreen 1px solid;
+  color: lightgreen;
+  padding: 1px 6px 1px 6px;
+}
+.gambarcontentlist1-1-kanan3-11 div img {
+  padding: 5px 0px 0px 5px;
+}
+/*kanan 3.11*/
+
+/*kanan 3.15*/
+.gambarcontentlist1-1-kanan3-15 {
+  display: flex;
+  margin: 5px 0px 0px 550px;
+}
+.gambarcontentlist1-1-kanan3-15 div p {
+  border: lightgreen 1px solid;
+  color: lightgreen;
+  padding: 1px 6px 1px 6px;
+}
+.gambarcontentlist1-1-kanan3-15 div img {
+  padding: 5px 0px 0px 5px;
+}
+/*kanan 3.15*/
+/*contentlist3-2*/
+/*listright2*/
+/*listright*/
+/*list*/
+
+/*LISTBOOK*/
+.listbook {
+  width: 1290px;
+  color: #393f52;
+  margin: 20px 0px 0px 50px;
+}
+/*judullist*/
+.judullist {
+  display: flex;
+}
+.judullist p {
+  margin-left: 10px;
+}
+.judullist .pisahi {
+  width: 1250px;
+  height: 50px;
+  margin: 8px auto;
+  text-align: center;
+  display: flex;
+  margin: 30px 0px 0px -88px;
+}
+.judullist .pisahi .grey {
+  border-bottom: 1px solid #b8b8b8;
+  width: 1295px;
+  height: 3px;
+}
+
+.judullist .pisahi2 {
+  height: 50px;
+  margin: 8px auto;
+  text-align: center;
+  display: flex;
+  margin: 30px 0px 0px -1260px;
+}
+.judullist .pisahi2 .biru {
+  border-bottom: 2px solid cornflowerblue;
+  width: 150px;
+  height: 3px;
+}
+/*judullist*/
+
+/*actual-class*/
+.actual-class {
+  margin-top: -28px;
+  margin-left: -30px;
+}
+.listbook .actual-class > div {
+  margin: -10px;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.listbook .actual-class > div dl {
+  width: 300px;
+  margin: 8px;
+  border: 1px #ccc solid;
+}
+.listbook .actual-class > div dl dt img {
+  width: 300px;
+}
+.listbook .actual-class > div dl:hover {
+  border: 1px rgb(16, 198, 243) solid;
+}
+.listbook .actual-class > div dl dd {
+  margin: 1px;
+  text-align: center;
+}
+.listbook .actual-class > div dl dd p {
+  padding: 15px 0px 15px 0px;
+  color: #7a7a7a;
+}
+
+.listbook .actual-class > div dl dd:nth-child(4) span:last-child {
+  margin-left: 0px;
+}
+
+/*actual-class*/
+
+/*footer*/
+footer {
+  margin: 20px auto;
+  width: 100%;
+  background-color: #393f52;
+}
+footer .content {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+footer .content > div {
+  flex: 1;
+}
+
+footer .content > div:nth-child(1) p:nth-child(1) {
+  font-size: 12px;
+}
+footer .content > div:nth-child(1) p:nth-child(1) img {
+  vertical-align: middle;
+}
+footer .content > div:nth-child(1) p:nth-child(2) {
+  font-size: 26px;
+  margin: 12px auto;
+}
+footer .content > div:nth-child(1) p:nth-child(3) img {
+  border-radius: 50%;
+  margin: 5px;
+}
+footer .content > div:nth-child(2) img {
+  width: 120px;
+}
+/*footercontent*/
+
+/*footer copyright*/
+footer .cpr {
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+/*footer copyright*/
+
+/*footer*/
+/*LISTBOOK*/

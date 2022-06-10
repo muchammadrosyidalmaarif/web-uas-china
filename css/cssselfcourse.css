@@ -1,0 +1,489 @@
+* {
+  margin: 0;
+  top: 0;
+  text-decoration: none;
+}
+
+.header {
+  width: 100vw;
+  height: 0px;
+}
+.header .top {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+}
+
+.header .top .top-content {
+  width: 100vw;
+  height: 60px;
+  margin: 5px auto;
+  display: flex;
+  align-items: center;
+}
+
+.header .top .top-content :nth-child(1) {
+  flex: 2;
+}
+
+.header .top .top-content :nth-child(2) {
+  flex: 2;
+  height: 46px;
+  padding-left: 10px;
+}
+
+.header .top .top-content :nth-child(2) select {
+  height: 48px;
+  font-size: 20px;
+}
+
+.header .top .top-content :nth-child(2) input {
+  height: 46px;
+  font-size: 18px;
+  width: 140px;
+  border: 0;
+}
+
+.header .top .top-content > :nth-child(2) img {
+  vertical-align: middle;
+  margin-left: -6px;
+  border: #ccc solid;
+}
+
+.header .top .top-content :nth-child(3) {
+  flex: 2;
+}
+
+.header .top .top-content > :nth-child(3) img {
+  vertical-align: middle;
+}
+
+.header .top .top-content :nth-child(3) span:first-child a {
+  color: chocolate;
+}
+
+.header .top .top-content :nth-child(3) span:last-child a {
+  color: cornflowerblue;
+}
+
+.header .top .top-content > :nth-child(3) .App_code img {
+  width: 100px;
+  top: 50px;
+  margin-left: 120px;
+  position: absolute;
+  display: none;
+  z-index: 10;
+}
+
+.header .top .top-content :nth-child(4) {
+  flex: 1;
+}
+
+.header .top .top-content :nth-child(4) a {
+  color: lightslategray;
+  margin: 0 6px;
+  font-weight: 800;
+}
+.header .menu {
+  width: 100%;
+  height: 90px;
+}
+
+.menu-content {
+  float: left;
+  margin: auto;
+  text-align: center;
+  width: 1346px;
+  font-family: arial;
+}
+
+.menu-content ul {
+  background: #393f52;
+  padding: 10px 20px 10px 0px;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  width: 100%;
+}
+
+.menu-content ul li {
+  float: left;
+}
+
+.menu-content ul li:hover {
+  background: cornflowerblue;
+}
+
+.menu-content ul li:hover a {
+  color: white;
+}
+
+.menu-content ul li a {
+  display: block;
+  padding: 25px;
+  color: #fff;
+  text-decoration: none;
+}
+/*navbar*/
+
+/*banner self course*/
+.banner img {
+  margin-top: -4px;
+  width: 1366px;
+  height: 300px;
+}
+/*banner self course*/
+
+/*menu-top*/
+.menu-top {
+  display: flex;
+  margin: -59px 0px 0px 150px;
+  padding-top: 20px;
+  width: 1090px;
+  color: #fff;
+  font-size: 15px;
+}
+
+/*birukiri*/
+.menu-top .birukiri {
+  display: flex;
+  width: 190px;
+  padding: 1px 67px 0px 10px;
+  background-color: cornflowerblue;
+}
+
+.birukiri p {
+  padding: 4px 0px 1px 10px;
+}
+.birukiri img {
+  width: 30px;
+}
+/*birukiri*/
+
+/*abukanan*/
+.abukanan {
+  width: 1000px;
+  display: flex;
+  background-color: rgba(204, 204, 204, 0.185);
+}
+.abukanan .p1 {
+  padding: 7px 0px 1px 60px;
+}
+.abukanan .p2 {
+  padding: 7px 0px 1px 60px;
+}
+/*abukanan*/
+/*menu-top*/
+
+/*menu-book*/
+.menu-book {
+  display: flex;
+  width: 1366px;
+  color: #393f52;
+}
+/*menu-book*/
+
+/*menu-left*/
+.menu-left {
+  margin-left: 150px;
+  width: 237px;
+  height: 600px;
+  border: 1px #b6b6b6 solid;
+}
+
+/*menu-left1*/
+.menu-left1 {
+  padding: 18px;
+  text-indent: 2px;
+}
+
+.pemisah-left-1 .pisah-left-1 {
+  width: 200px;
+  margin: 8px auto;
+  text-align: center;
+  display: flex;
+  margin: -25px 0px 0px 10px;
+}
+.pemisah-left-1 .pisah-left-1 i {
+  border-bottom: 1px solid #b8b8b8;
+  width: 200px;
+  height: 3px;
+}
+
+.menu-left1-1 {
+  display: flex;
+  margin-left: -40px;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+.menu-left1-2 {
+  display: flex;
+  margin: -40px 0px 0px -40px;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+.menu-left1-3 {
+  display: flex;
+  margin: -40px 0px 0px -70px;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+/*menu-left1*/
+
+/*menu-left2*/
+.menu-left2-1 {
+  display: flex;
+  margin: 7px 0px 0px -140px;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+/*menu-left2*/
+
+/*menu-qita*/
+.menu-qita {
+  display: flex;
+  margin: 7px 0px 0px -170px;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+/*menu-qita*/
+/*menu-left*/
+
+/*menu right*/
+.menu-right {
+  margin: 40px 0px 0px 20px;
+}
+/*menu right*/
+
+/*judullist1*/
+.judullist {
+  margin-left: -5px;
+  display: flex;
+}
+.judullist p {
+  color: cornflowerblue;
+  margin-left: 10px;
+}
+.judullist .gengduo1 p {
+  color: #b6b6b6;
+  padding-left: 700px;
+}
+.judullist img {
+  width: 26px;
+}
+.judullist .pisahi {
+  width: 886px;
+  height: 50px;
+  margin: 8px auto;
+  text-align: center;
+  display: flex;
+  margin: 30px 0px 0px -860px;
+}
+.judullist .pisahi .grey {
+  border-bottom: 1px solid #b8b8b8;
+  width: 1290px;
+  height: 3px;
+}
+
+.judullist .pisahi2 {
+  height: 50px;
+  margin: 8px auto;
+  text-align: center;
+  display: flex;
+  margin: 30px 0px 0px -890px;
+}
+.judullist .pisahi2 .biru {
+  border-bottom: 2px solid cornflowerblue;
+  width: 150px;
+  height: 3px;
+}
+/*judullist1*/
+
+/*list buku1*/
+.actual-class {
+  margin-top: -28px;
+  margin-left: -35px;
+}
+.listbook1 .actual-class > div {
+  margin: -10px;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.listbook1 .actual-class div dl {
+  width: 335px;
+  padding: 0px 100px 20px 0px;
+  height: 248px;
+  margin: 5px;
+  border: 1px #ccc solid;
+}
+.listbook1 .actual-class div dl dt img {
+  width: 435px;
+}
+.listbook1 .actual-class div dl:hover {
+  border: 1px rgb(16, 198, 243) solid;
+}
+.listbook1 .actual-class div dl dd {
+  margin: 1px;
+  padding: 5px 0px 5px 10px;
+}
+.listbook1 .actual-class div dl dd p {
+  padding: 2px 0px 5px 0px;
+  color: #7a7a7a;
+}
+.list-text-top-1 {
+  display: flex;
+  width: 500px;
+  height: 30px;
+  margin: 5px;
+  font-size: 13px;
+}
+
+.list-text-top-1 div img {
+  margin-top: -6px;
+}
+.list-text-top-1 div .clock {
+  margin: 3px 0px 0px 25px;
+}
+.tombolwarna {
+  border-radius: 2px;
+  margin-left: 48px;
+  padding: 2px 13px 0px 13px;
+  background-color: cornflowerblue;
+}
+.tombolwarna p {
+  color: white;
+}
+/*list buku1*/
+
+/*judullist2*/
+.judullist2 {
+  margin: 40px 0px 0px 2px;
+  display: flex;
+}
+.judullist2 p {
+  color: cornflowerblue;
+  margin-left: 10px;
+}
+.judullist2 .gengduo-1 p {
+  color: #b6b6b6;
+  padding-left: 700px;
+}
+.judullist2 img {
+  width: 26px;
+}
+.judullist2 .pisahi-1 {
+  width: 886px;
+  height: 50px;
+  margin: 8px auto;
+  text-align: center;
+  display: flex;
+  margin: 30px 0px 0px -860px;
+}
+.judullist2 .pisahi-1 .grey {
+  border-bottom: 1px solid #b8b8b8;
+  width: 1290px;
+  height: 3px;
+}
+
+.judullist2 .pisahi-2 {
+  height: 50px;
+  margin: 8px auto;
+  text-align: center;
+  display: flex;
+  margin: 30px 0px 0px -890px;
+}
+.judullist2 .pisahi-2 .biru {
+  border-bottom: 2px solid cornflowerblue;
+  width: 150px;
+  height: 3px;
+}
+/*judullist2*/
+
+/*list book2*/
+.listbook2 {
+  margin: 4px 0px 40px 0px;
+}
+.listbook2 .actual-class2 > div {
+  margin: -30px 0px 30px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.listbook2 .actual-class2 > div dl {
+  width: 280px;
+  margin: 8px;
+  border: 1px #ccc solid;
+}
+.listbook2 .actual-class2 > div dl:hover {
+  border: 1px rgb(16, 198, 243) solid;
+}
+.listbook2 .actual-class2 > div dl dd {
+  margin: 15px;
+}
+.listbook2 .actual-class2 > div dl dd:nth-child(3) span:last-child {
+  margin-left: 85px;
+  border: 1px lightgreen solid;
+  display: inline-block;
+  height: 28px;
+  width: 50px;
+  line-height: 28px;
+  text-align: center;
+  color: lightgreen;
+}
+.listbook2 .actual-class2 > div dl dd:nth-child(4) span:last-child {
+  margin-left: 75px;
+}
+/*list book2*/
+
+/*footer*/
+footer {
+  margin: 20px auto;
+  width: 1366px;
+  background-color: #393f52;
+}
+footer .content {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+footer .content > div {
+  flex: 1;
+}
+
+footer .content > div:nth-child(1) p:nth-child(1) {
+  font-size: 12px;
+}
+footer .content > div:nth-child(1) p:nth-child(1) img {
+  vertical-align: middle;
+}
+footer .content > div:nth-child(1) p:nth-child(2) {
+  font-size: 26px;
+  margin: 12px auto;
+}
+footer .content > div:nth-child(1) p:nth-child(3) img {
+  border-radius: 50%;
+  margin: 5px;
+}
+footer .content > div:nth-child(2) img {
+  width: 120px;
+}
+/*footercontent*/
+
+/*footer copyright*/
+footer .cpr {
+  width: 1200px;
+  height: 50px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+/*footer copyright*/
+
+/*footer*/
